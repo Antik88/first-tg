@@ -4,7 +4,11 @@
 	<meta charset="UTF-8">
 	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
 	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Work+Sans:ital@0;1&display=swap" rel="stylesheet">  
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
@@ -25,8 +29,327 @@
     <!-- Конец -->
 
     <div class="main">
-        В данном блоке размещается верстка
+        <div class="container">
+            <div class="main__content">
+                <header class="header">
+                    <ul class="nav__ul">
+                        <li class="nav__item">
+                            <a href="#" class="nav_item_content">Collections</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav_item_content">Products</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav_item_content">Inspiration</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav_item_content">About us</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#" class="nav_item_content">Find a dealer</a>
+                        </li>
+                    </ul>
+                </header>
+                <div class="main__tagline">
+                    <h1 class="tagline">Lasting memories</h1>
+                </div>
+            </div>
+            <section class="tables">
+                <div class="tables_content">
+                    <div class="tables_content_right">
+                        <h3 class="tables_h3">
+                            Making<br>tables<br>heroes
+                        </h3>
+                        <p class="content_text">
+                            Chairs, cabinets, but especially tables by Joli 
+                            are durable products, designed to last and to be used intensively.
+                        </p>
+                        <div class="content_buttns">
+                            <a href="#" class="tables_btn btn_selected">
+                                <p class="btn_txt">about us</p>
+                            </a>
+                            <a href="#" class="tables_btn">collections</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tables_content">
+                    <img src="./img/tables_right2.png" alt="none" class="tables_img_first">
+                    <img src="./img/tables_right1.png" alt="none" class="tables_img_second">
+                    <img src="./img/tables_right3.png" alt="none" class="tables_img_third">
+                </div>
+            </section>
+            <section class="collections">
+                <div class="collections_content">
+                    <h3 class="collection_title_text">
+                        Our<br>collections
+                    </h3>
+                    <div class="collections_nav">
+                        <ul class="collections_ul">
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Central</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Olivo</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Morisot</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Curve</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Wire</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Marguerite</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Fizz</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Rafael</a>
+                            </li>
+                            <li class="collections_nav_item">
+                                <a href="#" class="collections_link">Chagall</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="collections_pic_4">
+                        <img src="./img/imd4.png" alt="none" class="img4">
+                        <h5 class="onpic">Olivo</h5>
+                        <div class="prompts">
+                            <p class="propmpt">Believe us, this will be a real eye-catcher</p>
+                        </div>
+                    </div>
+                    <div class="collections_pic_5">
+                        <img src="./img/img5.png" alt="none" class="img5">
+                        <h5 class="onpic pic5">Central</h5>
+                        <div class="prompts">
+                            <p class="propmpt">ready to become the centerpiece of your home</p>
+                            <a href="#" class="next">
+                                <img src="./img/Vector.svg" alt="#">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="collection_nav">
+                        <a href="#" class="prev_gage">
+                            <img src="./img/Vector.svg" alt="#" class="nav_prev">
+                        </a>
+                        <p class="num_page">1 / 9</p>
+                        <a href="#" class="next_page">
+                            <img src="./img/Vector.svg" alt="#" class="nav_next">
+                        </a>
+                    </div>
+                </div>
+            </section> 
+            <section class="find_a_dealer">
+                <div class="find_content">
+                    <div class="find_left">
+                        <h3 class="find_title">find  &nbsp;&nbsp;&nbsp;a dealer</h3>
+                        <p class="find_text">We work together with dealers in 19 countries, 
+                            all over the world. Find out which one is closest to you.
+                        </p>
+                        <input type="text" class="input" placeholder="Your location">
+                        <button type="button" class="find_btn">search</button>
+                    </div>
+                </div>
+                <div class="find_content find_right"></div>
+            </section>
+            <section class="terrace">
+                <div class="ferrace_content">
+                    <h2 class="terrace_title first_title">Terrace &nbsp;&nbsp;&nbsp;</h2>
+                    <h2 class="terrace_title">Ceremonies & Meetings</h2>
+                    <div class="btn">
+                        <button class="find_btn terrace_btn">Inspire me </button>
+                    </div>
+                    <img src="./img/img7.png" alt="#" class="terrace_img1">
+                    <img src="./img/img8.png" alt="#" class="terrace_img2">
+                    <img src="./img/img9.png" alt="#" class="terrace_img3">
+                </div>
+            </section>
+            <section class="joli">
+                <div class="joli_content">
+                    <h2 class="joli_tatle">
+                        Joli manages to <br>offer designs<br>that are both<br>timelessly modern<br>and trendy
+                    </h2>
+                    <div class="joli_btn">
+                        <button type="button" class="find_btn">about us</button>
+                    </div>
+                </div>
+            </section>
+            <section class="dealer">
+                <div class="dealer_content">
+                    <div class="dealer_left">
+                       
+                    </div>
+                </div>
+                <div class="dealer_content dealer_right">
+                    <h3 class="find_title dealer_title">Become  &nbsp;&nbsp;&nbsp;a dealer</h3>
+                    <p class="find_text">Do you want to become a Joli retailer? 
+                        Please submit the following form and we will contact you!
+                    </p>
+                    <button type="button" class="find_btn">learn more</button>
+                </div>
+            </section>
+            <section class="photo">
+                <img src="./img/photo.png" alt="" class="photo_img">
+            </section>
+            <section class="request">
+                <div class="request_prompt">
+                    <h2 class="request_title">Request our 2022 catalogue.</h2>
+                </div>
+                <div class="request_inputs">
+                    <div class="inputs_items">
+                        <p class="email">email address *</p>
+                        <input type="text" class="email_input">
+                        <button type="submit" class="email_submit">I agree with the Privacy & Cookie Policy of Joli</button>
+                    </div>
+                </div>
+                <div class="request_btn">
+                    <button type="button" class="find_btn request_send_btn">Send</button>
+                </div>
+            </section>
+            <footer class="footer">
+                <div class="footer_logo">
+                    <img src="./img/footerLogo.svg" alt="#" class="footer_img">
+                </div>
+                <div class="footer_content">
+                    <div class="footer_upper_list">
+                        <ul class="upper_list">
+                            <li class="upper_list_item">
+                                <a href="#" class="upper_list_item_content">Collections</a>
+                            </li>
+                            <li class="upper_list_item">
+                                <a href="#" class="upper_list_item_content">Products</a>
+                            </li>
+                            <li class="upper_list_item">
+                                <a href="#" class="upper_list_item_content mr">Inspiration</a>
+                            </li>
+                            <li class="upper_list_item">
+                                <a href="#" class="upper_list_item_content">About us</a>
+                            </li>
+                            <li class="upper_list_item">
+                                <a href="#" class="upper_list_item_content mar">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="footer_middle_list">
+                        <div class="footer_middle_list_item">
+                            <ul class="mid_list">
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Wire</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Curve</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Fizz</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Marguerite</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_middle_list_item">
+                            <ul class="mid_list">
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Tables</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Chairs</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Cabinets</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Accessories</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_middle_list_item">
+                            <ul class="mid_list">
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content width">Joli Days 2022</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Terrace</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Ceremonies & Meetings</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_middle_list_item">
+                            <ul class="mid_list">
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Materials</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Find a dealer</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Professionals</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">News</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_middle_list_item">
+                            <ul class="mid_list">
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">Industrielaan 5</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">8520 Kortrijk</a>
+                                </li>
+                                <li class="mid_list_item">
+                                    <a href="#" class="mid_list_item_content">info@joli.be</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer_buttom_list">
+                        <ul class="footer_buttom_ul">
+                            <li class="buttom_item">
+                                <a href="#" class="buttom_item_content">
+                                    Privacy & Cookie Policy
+                                </a>
+                            </li>
+                            <li class="buttom_item">
+                                <a href="#" class="buttom_item_content">
+                                    Disclaimer
+                                </a>
+                            </li>
+                            <li class="buttom_item">
+                                <a href="#" class="buttom_item_content">
+                                    made by skinn
+                                </a>
+                            </li>
+                            <li class="buttom_item">
+                                <ul class="buttom_item_ul">
+                                    <li class="buttom_ul_item">
+                                        <a href="#" class="social_a">
+                                            <img src="./img/facebook.svg" alt="#" class="social">
+                                        </a>
+                                    </li>
+                                    <li class="buttom_ul_item">
+                                        <a href="#" class="social_a">
+                                            <img src="./img/inst.svg" alt="#" class="social">
+                                        </a>
+                                    </li>
+                                    <li class="buttom_ul_item">
+                                        <a href="#" class="social_a">
+                                            <img src="./img/pit.svg" alt="#" class="social">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
     </div>
-
 </body>
 </html>
